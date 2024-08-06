@@ -1,0 +1,163 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 20px; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Color Palette */
+  
+  .first-color {
+    background: #bbe9db;
+  }
+  
+  .second-color {
+    background: #aeccc6;
+  }
+  
+  .third-color {
+    background: #9ba6a5;
+  }
+  
+  .fourth-color {
+    background: #757a79;
+  }
+  
+  /* Typography */
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  h6 {
+    font-size: 12px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button.first-color {
+    background: #bbe9db;
+    color: #333;
+  }
+  
+  .button.second-color {
+    background: #aeccc6;
+    color: #333;
+  }
+  
+  .button.third-color {
+    background: #9ba6a5;
+    color: #333;
+  }
+  
+  .button.fourth-color {
+    background: #757a79;
+    color: #fff;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Navigation */
+  
+  .nav {
+    background: #bbe9db;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    color: #757a79;
+  }
+  
+  /* Footer */
+  
+  .footer {
+    background: #9ba6a5;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #bbe9db;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+    }
+    .nav ul {
+      flex-direction: column;
+    }
+    .nav li {
+      margin-right: 0;
+    }
+  }
+  
